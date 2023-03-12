@@ -4,7 +4,7 @@ import Peer from 'simple-peer';
 
 const SocketContext = createContext();
 
- const socket = io('video-app-production-7db2.up.railway.app');
+ const socket = io('https://video-app-production-7db2.up.railway.app');
 
 
 const ContextProvider = ({ children }) => {
