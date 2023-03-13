@@ -1,57 +1,98 @@
-.parent-options{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1.5rem;
-    margin-left: 0.5rem;
+.parent-options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+  margin-left: 0.5rem;
 }
-.option-content{
-    display: flex;
-    flex-direction: column;
-    width: 450px;
-    height: 250px;
-    border: 2px solid black;
-    border-radius: 12px;
-    background-color: white;
+.option-content {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background-color: white;
 }
-.parent-info-container{
-    display: flex;
-    flex-direction: row;
-    padding-top: 20px;
-    
-    
+.parent-info-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
 }
-.info-container{
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-    
+.info-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
 }
-.account-info{
-    
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+.account-info {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.option-input{
-    margin-top: 10px;
-    width: 200px;
-    height: 30px;
-   
+.option-input {
+  margin-top: 10px;
+  width: 200px;
+  height: 30px;
 }
-.btnclipboard{
-    
-    margin-top: 10px;
-    width: 200px;
-    height: 30px;
-   
+.btnclipboard {
+  margin-top: 10px;
+  width: 200px;
+  height: 30px;
+}
+.hangup {
+  margin-top: 10px;
+  width: 200px;
+  height: 30px;
 }
 .clipboard {
-    margin-top: 10px;
-    width: 200px;
-    height: 30px;
-    
+  margin-top: 10px;
+  width: 200px;
+  height: 30px;
 }
-.css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
-    margin-top: 10px !important;
-    margin-bottom: 30px !important;
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  margin-top: 10px !important;
+  margin-bottom: 30px !important;
+}
+@media (max-width: 768px) {
+    .option-content {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 250px;
+        border: 2px solid black;
+        border-radius: 12px;
+        background-color: white;
+        padding-right: 10px;
+      }
+      .option-input {
+        margin-top: 10px;
+        width: 165px;
+        height: 30px;
+      }
+      .btnclipboard {
+        margin-top: 10px;
+        width: 165px;
+        height: 30px;
+      }
+      .hangup {
+        margin-top: 10px;
+        width: 165px;
+        height: 30px;
+      }
+      .clipboard {
+        margin-top: 10px;
+        width: 165px;
+        height: 30px;
+      }
+      .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+        margin-top: 10px !important;
+        margin-bottom: 30px !important;
+      }
+      .parent-options {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1.5rem;
+        margin-right: 0.5rem;
+       
+      }
 }
